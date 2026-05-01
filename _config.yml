@@ -18,3 +18,6 @@ header_pages:
 # Plugins soportados por GitHub Pages
 plugins:
   - jekyll-feed
+
+sass:
+  style: compressed
