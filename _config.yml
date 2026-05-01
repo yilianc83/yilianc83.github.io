@@ -14,7 +14,3 @@ show_excerpts: true
 header_pages:
   - about.md
   - contact.md
-
-# Plugins soportados por GitHub Pages
-plugins:
-  - jekyll-feed
