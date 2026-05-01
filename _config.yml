@@ -1,3 +1,20 @@
-title: Yilian Cisnero Nápoles
-description: Portafolio de escritura de Yilian Cisnero Nápoles
+title: Portafolio de Escritura | Yilian Cisnero
+description: Blog de redacción profesional y creación de contenido
+author: Yilian Cisnero
+
 theme: minima
+
+# URL (IMPORTANTE)
+url: "https://tuusuario.github.io"
+
+# Mostrar posts en home
+show_excerpts: true
+
+# Menú
+header_pages:
+  - about.md
+  - contact.md
+
+# Plugins soportados por GitHub Pages
+plugins:
+  - jekyll-feed
