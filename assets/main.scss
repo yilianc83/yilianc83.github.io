@@ -3,7 +3,6 @@
 
 @import "minima";
 
-/* 🎨 Variables personalizadas */
 :root {
   --color-primary: #2563eb;
   --color-primary-dark: #1e3a8a;
@@ -12,14 +11,12 @@
   --color-text: #374151;
 }
 
-/* 🧱 Base */
 body {
   font-size: 18px;
   color: var(--color-text);
   background-color: #ffffff;
 }
 
-/* 🔝 Header */
 .site-header {
   border-top: 4px solid var(--color-primary);
 }
@@ -33,7 +30,6 @@ body {
   color: var(--color-accent);
 }
 
-/* 🔗 Links */
 a {
   color: var(--color-primary);
   text-decoration: none;
@@ -45,7 +41,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* 🧭 Navegación */
 .site-nav .page-link {
   color: var(--color-text);
 }
@@ -54,7 +49,6 @@ a:hover {
   color: var(--color-accent);
 }
 
-/* 📝 Posts */
 .post-title {
   color: var(--color-primary-dark);
 }
@@ -67,7 +61,6 @@ a:hover {
   color: #6b7280;
 }
 
-/* 📦 Tarjetas de posts (home) */
 .post-list li {
   padding: 1rem;
   border-radius: 10px;
@@ -78,25 +71,26 @@ a:hover {
   background-color: var(--color-accent-soft);
 }
 
-/* 📌 Botones (si agregas alguno) */
-button, .btn {
+button,
+.btn {
   background-color: var(--color-primary);
   color: white;
   border-radius: 6px;
   padding: 0.5rem 1rem;
 }
 
-button:hover, .btn:hover {
+button:hover,
+.btn:hover {
   background-color: var(--color-accent);
 }
 
-/* 📎 Footer */
 .site-footer {
   border-top: 2px solid var(--color-primary);
 }
 
-/* ✨ Detalles extra */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--color-primary-dark);
 }
 
