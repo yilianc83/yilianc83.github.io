@@ -1,0 +1,108 @@
+---
+---
+
+@import "minima";
+
+/* 🎨 Variables personalizadas */
+:root {
+  --color-primary: #2563eb;
+  --color-primary-dark: #1e3a8a;
+  --color-accent: #ec4899;
+  --color-accent-soft: #fce7f3;
+  --color-text: #374151;
+}
+
+/* 🧱 Base */
+body {
+  font-size: 18px;
+  color: var(--color-text);
+  background-color: #ffffff;
+}
+
+/* 🔝 Header */
+.site-header {
+  border-top: 4px solid var(--color-primary);
+}
+
+.site-title {
+  color: var(--color-primary-dark);
+  font-weight: 700;
+}
+
+.site-title:hover {
+  color: var(--color-accent);
+}
+
+/* 🔗 Links */
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+/* 🧭 Navegación */
+.site-nav .page-link {
+  color: var(--color-text);
+}
+
+.site-nav .page-link:hover {
+  color: var(--color-accent);
+}
+
+/* 📝 Posts */
+.post-title {
+  color: var(--color-primary-dark);
+}
+
+.post-title:hover {
+  color: var(--color-accent);
+}
+
+.post-meta {
+  color: #6b7280;
+}
+
+/* 📦 Tarjetas de posts (home) */
+.post-list li {
+  padding: 1rem;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.post-list li:hover {
+  background-color: var(--color-accent-soft);
+}
+
+/* 📌 Botones (si agregas alguno) */
+button, .btn {
+  background-color: var(--color-primary);
+  color: white;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+}
+
+button:hover, .btn:hover {
+  background-color: var(--color-accent);
+}
+
+/* 📎 Footer */
+.site-footer {
+  border-top: 2px solid var(--color-primary);
+}
+
+/* ✨ Detalles extra */
+h1, h2, h3 {
+  color: var(--color-primary-dark);
+}
+
+blockquote {
+  border-left: 4px solid var(--color-accent);
+  background-color: var(--color-accent-soft);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
