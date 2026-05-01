@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Inicio
+title: Hola, soy Yilian!
 ---
 
 Bienvenido a mi portafolio de escritura.
